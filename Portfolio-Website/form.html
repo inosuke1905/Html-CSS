@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+       <link rel="stylesheet" href="stylesheet.css">
+    </head>
+<body>
+    <header>
+        <div class="title">
+            <h1>My Portfolio</h1>
+        </div>
+
+        <nav class="header-menu">
+            <a href="galerij.html">Galerij</a>
+            <span>|</span>
+            <a href="homepage.html">Homepage</a>
+            <span>|</span>
+            <a href="form.html">Form</a>
+        </nav>
+    </header>
+    <main class="formbackground">
+        <div class="formtitel">
+            <p>Epic Formulier</p>
+        </div>
+        <form class="form-card">
+    <div>
+        <input type="radio" id="man" name="gender" value="man" required>
+        <label for="man">Man</label>
+
+        <input type="radio" id="woman" name="gender" value="woman">
+        <label for="woman">Vrouw</label>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="name">Naam:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Leeftijd:</label>
+        <input type="number" id="age" name="age" min="0" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="animal">Favoriete dier:</label><br>
+        <input type="text" id="animal" name="animal">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="food">Favoriete eten:</label><br>
+        <input type="text" id="food" name="food">
+    </div>
+
+    <br><br>
+
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+    </main>
+<footer class="footer">
+    <p>© 2026 My Portfolio - All rights reserved</p>
+    <p>Epic Footer</p>
+</footer>
+</body>
+    </html>

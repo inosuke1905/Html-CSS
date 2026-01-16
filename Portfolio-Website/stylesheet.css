@@ -1,0 +1,172 @@
+* {
+font-family: Arial, Helvetica, sans-serif; /* Global Font */
+}
+
+.title h1{
+    text-align: center;
+    font-size: xx-large; 
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: red;
+    padding: 3px;
+}
+
+.header-menu a {
+    color: white;
+    font-size: 15px;
+    font-weight: 250;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.header-menu a:hover {
+    color: yellow;
+}
+
+span {
+    color: white;
+}
+
+/* Main Homepage */
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px 40px;
+    margin: 40px 80px;
+}
+
+.left {
+    max-width: 500px;
+}
+
+.welkom {
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.code img {
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.about {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Form */
+
+.formtitel {
+    display: inline-block;
+    color: white;
+    background-color: red;
+
+    padding: 10px 15px;
+    margin: 40px auto;
+    border-radius: 8px;
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 0 0 10px white;
+}
+
+.formbackground {
+    background-image: url("images/lines.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    flex: 1;
+    padding-bottom: 40px;
+}
+
+.form-card {
+    background-color: white;
+
+    width: 800px;
+    max-width: 90%;
+    min-height: 550px;
+
+    margin: 30px auto 60px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-row {
+  margin-bottom: 18px;
+}
+
+.gender-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.gender-option input {
+  margin: 0;
+}
+
+/* Gallery page */
+.gallery-page {
+    flex: 1;                
+    padding: 30px 60px;
+}
+
+.gallery-title {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;           
+    object-fit: cover;
+    border-radius: 20px;
+}
